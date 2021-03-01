@@ -1,0 +1,32 @@
+example_spreadsheet:
+  type: pandas.ExcelDataSet
+  filepath: data/01_raw/kedro_example.xlsx
+  load_args:
+    engine: openpyxl
+
+
+remove_missing_label:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/remove_missing_label.csv
+
+
+remove_no_units:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/remove_no_units.csv
+
+
+capitalize_product_names:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/capitalize_product_names.csv
+  
+  
+calculate_pricing:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/calculate_pricing.csv
+
+
+product_data:
+  type: pandas.JSONDataSet
+  filepath: data/03_primary/calculate_pricing.json
+  save_args:
+    orient: 'records'
