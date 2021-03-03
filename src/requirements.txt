@@ -5,79 +5,136 @@
 #    pip-compile /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 #
 anyconfig==0.9.11
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 appdirs==1.4.4
-    # via black
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   black
 appnope==0.1.2
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipykernel
     #   ipython
 argon2-cffi==20.1.0
-    # via notebook
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   notebook
 arrow==1.0.2
-    # via jinja2-time
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   jinja2-time
 async-generator==1.10
-    # via nbclient
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbclient
 attrs==20.3.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   black
     #   jsonschema
     #   pytest
 backcall==0.2.0
-    # via ipython
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   ipython
 binaryornot==0.4.4
-    # via cookiecutter
-black==v19.10b0
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   cookiecutter
+black==19.10b0
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 bleach==3.3.0
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
 cachetools==4.2.1
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 certifi==2020.12.5
-    # via requests
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   requests
 cffi==1.14.5
-    # via argon2-cffi
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   argon2-cffi
 chardet==4.0.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   binaryornot
     #   requests
 click==7.1.2
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   black
     #   cookiecutter
+    #   flask
     #   kedro
     #   pip-tools
 cookiecutter==1.7.2
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 coverage==5.5
-    # via pytest-cov
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   pytest-cov
 decorator==4.4.2
-    # via ipython
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   ipython
 defusedxml==0.6.0
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
 entrypoints==0.3
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
+et-xmlfile==1.0.1
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   openpyxl
 flake8==3.8.4
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+flask==1.1.2
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro-viz
 fsspec==0.8.7
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 gitdb==4.0.5
-    # via gitpython
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   gitpython
 gitpython==3.1.14
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 idna==2.10
-    # via requests
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   requests
 importlib-metadata==3.7.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   flake8
     #   fsspec
     #   jsonschema
     #   pluggy
     #   pytest
 iniconfig==1.1.1
-    # via pytest
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   pytest
 ipykernel==5.5.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipywidgets
     #   jupyter
     #   jupyter-console
@@ -85,35 +142,56 @@ ipykernel==5.5.0
     #   qtconsole
 ipython-genutils==0.2.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   jupyterlab
     #   nbformat
     #   notebook
     #   qtconsole
     #   traitlets
-ipython==7.10
+ipython==7.10.0
     # via
     #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipykernel
     #   ipywidgets
     #   jupyter-console
+    #   kedro-viz
 ipywidgets==7.6.3
-    # via jupyter
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   jupyter
 isort==4.3.21
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+itsdangerous==1.1.0
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   flask
+jdcal==1.4.1
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   openpyxl
 jedi==0.18.0
-    # via ipython
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   ipython
 jinja2-time==0.2.0
-    # via cookiecutter
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   cookiecutter
 jinja2==2.11.3
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   cookiecutter
+    #   flask
     #   jinja2-time
     #   nbconvert
     #   notebook
 jmespath==0.10.0
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 jsonschema==3.2.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   jupyterlab-launcher
     #   nbformat
 jupyter-client==6.1.11
@@ -126,9 +204,12 @@ jupyter-client==6.1.11
     #   notebook
     #   qtconsole
 jupyter-console==6.2.0
-    # via jupyter
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   jupyter
 jupyter-core==4.7.1
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   jupyter-client
     #   nbconvert
     #   nbformat
@@ -137,31 +218,50 @@ jupyter-core==4.7.1
 jupyter==1.0.0
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 jupyterlab-launcher==0.10.5
-    # via jupyterlab
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   jupyterlab
 jupyterlab-pygments==0.1.2
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
 jupyterlab-widgets==1.0.0
-    # via ipywidgets
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   ipywidgets
 jupyterlab==0.31.1
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
-kedro==0.17.0
+kedro-viz==3.9.0
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+kedro==0.17.0
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro-viz
 markupsafe==1.1.1
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   cookiecutter
     #   jinja2
 mccabe==0.6.1
-    # via flake8
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   flake8
 mistune==0.8.4
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
 nbclient==0.5.3
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
 nbconvert==6.0.7
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   jupyter
     #   notebook
 nbformat==5.1.2
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipywidgets
     #   nbclient
     #   nbconvert
@@ -170,64 +270,108 @@ nbformat==5.1.2
 nbstripout==0.3.3
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 nest-asyncio==1.5.1
-    # via nbclient
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbclient
 notebook==6.2.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   jupyter
     #   jupyterlab
     #   jupyterlab-launcher
     #   widgetsnbextension
+numpy==1.20.1
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   pandas
+openpyxl==3.0.6
+    # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 packaging==20.9
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   bleach
     #   pytest
+pandas==1.2.2
+    # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 pandocfilters==1.4.3
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
 parso==0.8.1
-    # via jedi
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   jedi
 pathspec==0.8.1
-    # via black
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   black
 pexpect==4.8.0
-    # via ipython
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   ipython
 pickleshare==0.7.5
-    # via ipython
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   ipython
 pip-tools==5.5.0
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 pluggy==0.13.1
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   kedro
     #   pytest
 poyo==0.5.0
-    # via cookiecutter
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   cookiecutter
 prometheus-client==0.9.0
-    # via notebook
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   notebook
 prompt-toolkit==3.0.16
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipython
     #   jupyter-console
 ptyprocess==0.7.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   pexpect
     #   terminado
 py==1.10.0
-    # via pytest
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   pytest
 pycodestyle==2.6.0
-    # via flake8
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   flake8
 pycparser==2.20
-    # via cffi
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   cffi
 pyflakes==2.2.0
-    # via flake8
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   flake8
 pygments==2.8.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipython
     #   jupyter-console
     #   jupyterlab-pygments
     #   nbconvert
     #   qtconsole
 pyparsing==2.4.7
-    # via packaging
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   packaging
 pyrsistent==0.17.3
-    # via jsonschema
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   jsonschema
 pytest-cov==2.11.1
     # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 pytest-mock==1.13.0
@@ -239,59 +383,100 @@ pytest==6.1.2
     #   pytest-mock
 python-dateutil==2.8.1
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   arrow
     #   jupyter-client
+    #   pandas
 python-json-logger==0.1.11
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 python-slugify==4.0.1
-    # via cookiecutter
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   cookiecutter
+pytz==2021.1
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   pandas
 pyyaml==5.4.1
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 pyzmq==22.0.3
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   jupyter-client
     #   notebook
     #   qtconsole
 qtconsole==5.0.2
-    # via jupyter
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   jupyter
 qtpy==1.9.0
-    # via qtconsole
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   qtconsole
 regex==2020.11.13
-    # via black
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   black
 requests==2.25.1
-    # via cookiecutter
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   cookiecutter
+semver==2.13.0
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro-viz
 send2trash==1.5.0
-    # via notebook
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   notebook
 six==1.15.0
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   argon2-cffi
     #   bleach
     #   cookiecutter
     #   jsonschema
     #   python-dateutil
 smmap==3.0.5
-    # via gitdb
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   gitdb
 terminado==0.9.2
-    # via notebook
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   notebook
 testpath==0.4.4
-    # via nbconvert
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   nbconvert
 text-unidecode==1.3
-    # via python-slugify
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   python-slugify
 toml==0.10.2
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   black
     #   kedro
     #   pytest
 toposort==1.6
-    # via kedro
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   kedro
 tornado==6.1
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipykernel
     #   jupyter-client
     #   notebook
     #   terminado
 traitlets==5.0.5
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   ipykernel
     #   ipython
     #   ipywidgets
@@ -303,23 +488,40 @@ traitlets==5.0.5
     #   notebook
     #   qtconsole
 typed-ast==1.4.2
-    # via black
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   black
 typing-extensions==3.7.4.3
     # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
     #   arrow
     #   importlib-metadata
 urllib3==1.26.3
-    # via requests
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   requests
 wcwidth==0.2.5
-    # via prompt-toolkit
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   prompt-toolkit
 webencodings==0.5.1
-    # via bleach
-wheel==0.32.2
-    # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   bleach
+werkzeug==1.0.1
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   flask
 widgetsnbextension==3.5.1
-    # via ipywidgets
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   ipywidgets
+xlrd==2.0.1
+    # via -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
 zipp==3.4.0
-    # via importlib-metadata
+    # via
+    #   -r /Users/inigo/pyprojects/kedro-projects/kedro-nearform-example/src/requirements.in
+    #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip

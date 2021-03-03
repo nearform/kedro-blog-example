@@ -19,11 +19,8 @@ def capitalize_product_names(data: pd.DataFrame) -> pd.DataFrame:
 
 def calculate_pricing(data: pd.DataFrame) -> pd.DataFrame:
     data['Price'] = data.UnitCost + data.UnitCost * data.Margin
-    data = data.drop(['UnitCost', 'Margin'], axis=1)
-    return data
+    return data.drop(['UnitCost', 'Margin'], axis=1)
 
 
 def transform_json(data: pd.DataFrame) -> pd.DataFrame:
-    output_data = data.reset_index()
-    output_data = output_data.drop(['index'], axis=1)
-    return output_data
+    return data.reset_index().drop(['index'], axis=1)

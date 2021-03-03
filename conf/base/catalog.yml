@@ -4,22 +4,22 @@ example_spreadsheet:
   load_args:
     engine: openpyxl
 
-
+# Optional backup
 remove_missing_label:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/remove_missing_label.csv
 
-
+# Optional backup
 remove_no_units:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/remove_no_units.csv
 
-
+# Optional backup
 capitalize_product_names:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/capitalize_product_names.csv
   
-  
+# Optional backup
 calculate_pricing:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/calculate_pricing.csv

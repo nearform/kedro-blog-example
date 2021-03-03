@@ -1,14 +1,6 @@
 from kedro.pipeline import Pipeline, node
 
-
-from .nodes import (
-    remove_missing_label,
-    remove_no_units,
-    capitalize_product_names,
-    calculate_pricing,
-    transform_json,
-)
-
+from .nodes import remove_missing_label, remove_no_units, capitalize_product_names, calculate_pricing, transform_json
 
 def create_pipeline(**kwargs):
     return Pipeline(
